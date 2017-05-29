@@ -1,0 +1,97 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+header {
+  background: rgba(26, 163, 255,0.7);
+  margin-top: 140px;
+  width: 155px;
+  position: fixed;
+  z-index: 10;
+  border-radius: 0px 10px 10px 0px;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+
+}
+nav ul {
+
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: 100%;
+
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  width: 100px;	
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+
+}
+nav ul li:hover {
+  background: #e6b800;
+
+}
+.contenido {
+  padding-top: 80px;
+
+}
+
+
+
+
+.logo{
+	width: 80px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+
+fieldset{
+	margin-right: 40px;
+	margin-left: 200px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.fieldsetInterno{
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+#titulo{
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+
+#boton{
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	padding: 25px;
+}
+
+ul {
+
+list-style-type: none; 
+padding:5px;
+
+}
+

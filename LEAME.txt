@@ -1,0 +1,26 @@
+Página de inicio Login.php
+
+Usuarios y Passwords: Admin => 12345 , Javier => 6789 , Admin2 => 2468
+
+Si el nombre de usuario y password están correctos se inicia sesión.
+
+Página Menu: -Botón Formulario(Abre la página del formulario)
+	     -Botón Buscar(Abre la página para buscar archivos de texto ya creados desde el formulario)
+	     -Botón Mantenimiento(No está habilitado)
+
+Página del Formulario: 
+Se llenan los campos con la información requerida. Se revisa en la siguiente página 
+por medio del botón 'Revisar'. Si los campos del nombre, primer apellido, segundo apellido y cédula contienen datos
+se crea el botón 'Crear'. El botón 'Crear', se encanga de crear un archivo de texto nuevo guardandolo en el folder
+'Estudiantes' y asignandole como nombre el número de cédula del estudiante.
+
+Página Buscar: 
+Se digita el nombre del archivo a buscar (el nombre es el número de cédula del estudiante). Si existe el archivo
+muestra la información del archivo. Si no existe muestra mensaje 'El archivo no existe'. 
+
+Botón Menu:
+se dirige hacia la página 'menu'.
+
+Botón Salir: 
+Finaliza sesión y se dirige hacia la página 'login'.
+

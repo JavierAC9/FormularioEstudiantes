@@ -1,0 +1,15 @@
+
+ul {
+list-style-type: none; 
+padding:0;
+}
+
+#botonL{
+	padding: 15px;
+}
+
+#crearArchivo{
+	margin-bottom: 50px;
+	padding: 5px;
+}
+
